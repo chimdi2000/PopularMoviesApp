@@ -1,0 +1,6 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    style="@style/width_height_match_parent"
+    tools:context="android.dindu.com.popularmovies.MovieDetailsActivity"
+    tools:ignore="MergeRootFrame" />

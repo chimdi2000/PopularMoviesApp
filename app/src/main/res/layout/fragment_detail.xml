@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/width_height_match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/fragment_detail_linear_layout"
+        tools:context="android.dindu.com.popularmovies.MovieDetailsActivity$PlaceholderFragment">
+
+        <ImageView
+            android:id="@+id/detailImageView"
+            style="@style/detail_image_view"
+         />
+
+        <TextView
+            android:id="@+id/movieTitleTextView"
+            style="@style/movie_title_textview" />
+
+
+        <TextView
+            android:id="@+id/movieReleaseDateTextView"
+            style="@style/movie_release_date_textview" />
+
+        <TextView
+            android:id="@+id/movieVoteAverageTextView"
+            style="@style/movie_vote_average_textview" />
+
+
+        <TextView
+            android:id="@+id/movieOverviewTextView"
+            style="@style/movie_overview_textview" />
+
+    </LinearLayout>
+</ScrollView>

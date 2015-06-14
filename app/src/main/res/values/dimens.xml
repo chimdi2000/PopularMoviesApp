@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- Default values for different layout view options -->
+    <dimen name="main_title_textview_padding_left">10dp</dimen>
+    <dimen name="main_title_textview_padding_right">10dp</dimen>
+    <dimen name="main_title_textview_padding_top">15dp</dimen>
+    <dimen name="main_title_textview_padding_bottom">15dp</dimen>
+
+    <!-- dimension for gridview -->
+    <dimen name="gridview_vertical_spacing">0dp</dimen>
+    <dimen name="gridview_horizontal_spacing">0dp</dimen>
+    <dimen name="gridview_main_title_textsize">22dp</dimen>
+
+    <!-- Textview in Details fragment changes  -->
+    <dimen name="movie_title_textview">25dp</dimen>
+    <dimen name="movie_release_date_textview">22dp</dimen>
+    <dimen name="movie_vote_average_textview">19dp</dimen>
+    <dimen name="movie_overview_textview">17dp</dimen>
+
+
+
+
+</resources>

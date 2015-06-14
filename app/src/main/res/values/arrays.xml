@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_selection_names">
+        <item>@string/pref_movie_selection_popular</item>
+        <item>@string/pref_movie_selection_rated</item>
+    </string-array>
+
+    <string-array name="pref_selection_values">
+        <item>@string/pref_movie_selection_popular_value</item>
+        <item>@string/pref_movie_selection_rated_value</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="highest_paid">Highest Rated</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="pref_movie_selection_popular">Most Popular</string>
+    <string name="pref_movie_selection_rated">Highest Rated</string>
+    <string name="pref_movie_selection_popular_value" translatable="false">popularity.desc</string>
+    <string name="pref_movie_selection_rated_value" translatable="false">vote_count.desc</string>
+    <string name="pref_movie_sort_label">Sort Movie</string>
+    <string name="pref_movie_key">key</string>
+
+    <!-- Movie api key -->
+    <string name="movie_api_key">1cb816805e3fea2946680c0f7951eae1</string>
+
+</resources>

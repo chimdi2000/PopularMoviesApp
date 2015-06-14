@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="default_textview_style_for_details_page">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="movie_title_textview" parent="default_textview_style_for_details_page">
+        <item name="android:textSize">@dimen/movie_title_textview</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="movie_release_date_textview" parent="default_textview_style_for_details_page">
+        <item name="android:textSize">@dimen/movie_release_date_textview</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="movie_vote_average_textview" parent="default_textview_style_for_details_page">
+        <item name="android:textSize">@dimen/movie_vote_average_textview</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+    <style name="movie_overview_textview" parent="default_textview_style_for_details_page">
+        <item name="android:textSize">@dimen/movie_overview_textview</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+
+    <style name="gridview_main_title_text_view">
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/main_title_textview_padding_left</item>
+        <item name="android:paddingRight">@dimen/main_title_textview_padding_right</item>
+        <item name="android:paddingTop">@dimen/main_title_textview_padding_top</item>
+        <item name="android:paddingBottom">@dimen/main_title_textview_padding_bottom</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/gridview_main_title_textsize</item>
+        <item name="android:background">@color/light_dark</item>
+
+    </style>
+
+    <style name="width_height_match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+    </style>
+
+    <style name="width_height_match_wrap_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="width_height_wrap_match_parent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="width_height_wrap_parent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="gridview_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:verticalSpacing">@dimen/gridview_vertical_spacing</item>
+        <item name="android:horizontalSpacing">@dimen/gridview_horizontal_spacing</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:numColumns">2</item>
+    </style>
+
+    <style name="custom_square_image_view" parent="width_height_match_parent">
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="detail_image_view" parent="width_height_match_wrap_parent">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="fragment_detail_linear_layout" parent="width_height_match_parent">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+</resources>
